@@ -1,0 +1,309 @@
+.menu
+{
+    font-size: 20px;
+}
+h1
+{
+	font-weight: bold;
+	text-align: center;
+    font-size: 40px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+}
+h3
+{
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    margin-left: 125px;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+}
+.para
+{
+    list-style-type: disc;
+    font-weight: bold;
+	text-align: justify;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 90px;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+}
+.center
+{
+    display: block;
+    margin-left: 1050px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+.logo
+{
+    border-radius: 50%;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+/* Add a background color to the top navigation */
+.topnav 
+{
+    background: -webkit-linear-gradient( lightgreen, skyblue);
+    overflow: hidden;
+    z-index: 10;
+} 
+/*Style the links inside the navigation bar*/
+.topnav a 
+{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: sticky;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+/*Change the color of links on hover*/
+.topnav a:hover 
+{
+    background-color: #ddd;
+    color: black;
+}
+/*Add a color to the active/current link */
+.topnav a.active 
+{
+    background-color: palegreen;
+    color:black;
+} 
+.table-responsive
+{
+    text-align: center;
+}
+table 
+{
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    height: 80%;
+    width: 70%;
+}
+th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: lightslategray;
+    color: white;
+}
+td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+tr:hover 
+{ 
+     background-color: #ddd;
+}
+tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+.heading
+{
+    text-align: center;
+    color: black;
+	font-weight: bold;
+    font-size: 30px;
+    margin-left: 125px;
+    font-family:'Times New Roman', Times, serif;
+}
+.info
+{
+    margin-left: 300px;
+    font-size: 20px;
+}
+.card-container
+{
+    margin-left: 300px;
+    background-color:#E5F5FC;
+    border-style:solid;
+    border-color:green;
+    border-radius:20px;
+    border-spacing:7px;
+    border-width:2;
+    height: 300px;
+    font-family:'Times New Roman', Times, serif;
+}
+.messagehide
+{
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.textbox1
+{
+    margin-left: 110px;
+}
+.textbox2
+{
+    margin-left: 85px;
+}
+.textbox3
+{
+    margin-left: 50px;
+}
+.transfer-button
+{
+    margin-left: 400px;
+}
+
+/* FEATURES */
+#features
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+.feature-row
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 300px;
+}
+.feature-col img
+{
+    width: 250px;
+    border-radius: 20px;
+}
+.feature-col>a
+{
+    display: inline-block;
+}
+.button
+{
+    padding: 15px 40px 10px 60px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 19px;
+    text-align: center;
+}
+.foot
+{
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.instagramBtn{
+    background: #125688; 
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add instagram icon */
+}
+
+.instagramBtn:hover{
+        color: #125688;  
+        background: white;  
+        border-color: #125688;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
